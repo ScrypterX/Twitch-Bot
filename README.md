@@ -1,2 +1,2 @@
 # Twitch-Bot
-A twitch bot
+A chat bot for twitch

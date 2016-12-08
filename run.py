@@ -7,7 +7,7 @@ from random import randint
 s = openSocket()
 joinRoom(s)
 readbuffer = ""
-
+#TODO: Add leveling,add gambling,announcements,profanity filter
 while True:
 		readbuffer = readbuffer + s.recv(1024)
 		temp = string.split(readbuffer, "\n")
